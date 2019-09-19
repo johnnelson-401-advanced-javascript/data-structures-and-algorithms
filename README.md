@@ -1,8 +1,10 @@
 # data-structures-and-algorithms
-
+# Author
+* John Nelson
 # Table of Contents
-# Reverse an Array
-Code-Challenge to make a function that reverses the order of an array.
+# Reverse an Array  
+
+* Code-Challenge to make a function that reverses the order of an array.
 
 ## Challenge
  Take an array as an argument. Without utilizing any of the built-in methods available, return an array with elements in reversed order.
