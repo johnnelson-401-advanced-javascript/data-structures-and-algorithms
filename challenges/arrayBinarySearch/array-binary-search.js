@@ -4,14 +4,14 @@ function binarySearch(array, target) {
   let highLimit = array.length - 1;
   let mid = (lowLimit + highLimit)/2;
 
-  for(i = 0; i < array.length, i++;) {
+  while(highLimit >= lowLimit) {
     if(mid === target) {
       return target
     }
-    else if (mid < target) {
+    else if (mid > target) {
       mid--; 
     }
-    else if (mid > target) {
+    else if (mid < target) {
       mid++;
     }
   };
