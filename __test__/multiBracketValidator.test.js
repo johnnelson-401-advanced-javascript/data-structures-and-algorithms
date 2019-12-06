@@ -13,5 +13,14 @@ describe('Tests bracketValidator returns a boolean representing if the brackets 
     let str5 = '{}{Code}[Fellows](())';
     expect(bracketValidator(str5)).toBe(true);
   });
+  it('Should return FALSE in these cases', () => {
+    let str = '{';
+    expect(bracketValidator(str)).toBe(false);
+    let str2 = ')';
+    expect(bracketValidator(str2)).toBe(false);
+    let str3 = '[}';
+    expect(bracketValidator(str3)).toBe(false);
+    
+  });
 
 });
