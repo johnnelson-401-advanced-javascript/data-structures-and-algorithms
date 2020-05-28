@@ -36,3 +36,4 @@ Add the new Element to the end of the array,
 
 ## Solution
 [solution](/challenges/arrayReverse/array-reverse.js)
+[pull-request](https://github.com/johnnelson-401-advanced-javascript/data-structures-and-algorithms/pull/2)
